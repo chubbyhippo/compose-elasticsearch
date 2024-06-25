@@ -1,4 +1,9 @@
 # elastic stack
+## docker compose
+### up
+```
+docker compose up -d
+```
 ## copy ca cert
 ```
 docker cp compose-elasticsearch-elasticsearch-1:/usr/share/elasticsearch/config/certs/ca/ca.crt .
